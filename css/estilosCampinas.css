@@ -1,0 +1,67 @@
+*{
+    margin: 0; /* a margem fica zerada */
+    padding: 0; /* a borda fica zerada */
+    box-sizing: border-box;/* esse comando reseta as configurações automáticas do navegador*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* definindo as fontes*/
+} 
+
+/* fazendo alterações na área do header */
+.topo-da-pagina{
+    
+    background-color: rgb(144, 221, 221);
+    width: 100%;
+    color: black;
+    text-align:center;
+    position: fixed; /*fixando o bloco topo da pagina*/
+    padding: 25px;
+    opacity: 0.9; /*fazendo com que so bloco fique transparente*/
+    z-index: 10; /*fazendo com que se sobreponha aos outros blocos*/
+}
+
+/* configurando os ítens do topo da página */
+.a {
+    border-style:ridge;
+    border-color:darkgray;
+    cursor: pointer; /* muda o cursor*/
+}
+/* configurando o título*/
+.titulo {
+    position: relative;/* deixa o bloco flutuando */
+    width: 100%;
+    top: 100px;
+}
+/* configurando a imagem*/
+.imagem-da-cidade {
+    position: relative; /* deixa o bloco flutuando */
+    width: 100%; /* largura do bloco */
+    top: 120px;/* distância do bloco do topo da página */
+    background-size: 50px; /* tamanho da imagem */
+   
+}
+/* configurando a section class*/
+.descrevendo {
+    position: relative; /* deixa o bloco flutuando */
+    width: 100%; /* largura do bloco */
+    top: 145px; /* distância do bloco do topo da página */
+    font-size: 19px; /* tamanho da fonte */
+}
+/* configurando a footer*/
+.direitos {
+    position: relative;/* deixa o bloco flutuando */
+    width: 100%;/* largura do bloco */
+    font-size: 19px;/* tamanho da fonte */
+    background-color: cadetblue;
+    bottom: -190px; /* distância do bloco do fim da página */
+    text-align: center; /* tamanho da fonte */
+    padding: 10px; /* espaço entre seu conteúdo e sua borda. */
+}
+/* configurando o logo do whats*/
+.logotipo-do-whatsapp {
+    position: fixed; /*fixando o bloco topo da pagina*/
+    width: 30px;/* largura do bloco */
+    height: 30px;/* altura do bloco */
+    right: 15px;/* distância margem direita */
+    bottom: 10px;/* distância fim da página */
+    z-index: 10; /*fazendo com que se sobreponha aos outros blocos*/
+}
+    
